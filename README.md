@@ -1,6 +1,31 @@
 # Wind_Resume
 The script is a summary generation tool in the context of the analysis of wind data from the Wind Explorer at https://eolico.minenergia.cl/
 
+# Script
+
+El script se describe de la siguiente forma.
+
+ Lectura y preprocesamiento de datos:
+ Lee datos de viento de un archivo CSV.
+        Interpola valores faltantes.
+        Filtra los datos por un rango de años específico (2007-2015).
+        Convierte la columna de fecha/hora al formato adecuado.
+        Agrega una columna para el mes.
+
+    Cálculo de promedios:
+        Calcula el promedio de la velocidad del viento por mes y hora.
+
+    Exportación y formateo de resultados:
+        Exporta los resultados a un archivo Excel.
+        Reorganiza los datos en el Excel para tener un formato más legible.
+        Redondea los valores a dos decimales.
+        Agrega una columna con los nombres de los meses.
+
+    Estilo condicional en Excel:
+        Aplica bordes a todas las celdas.
+        Colorea las celdas según rangos de velocidad del viento.
+        Cuenta las celdas por color y mes, y muestra estos conteos en una tabla resumen.
+
 # Instrucciones de uso (ESP).
 
 Para poder generar un resumen (Mes/Hora) en formato .xlsx a partir de las series de viento disponibles en el explorador eólico, se deben seguir los siguientes pasos:
@@ -16,6 +41,5 @@ El resultado debería ser un documento excel con el siguiente formato:
 
 # Significado de los valores y colores
 
-El script fue diseñado de tal forma que 
 
 
