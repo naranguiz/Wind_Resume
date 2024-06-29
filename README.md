@@ -3,7 +3,7 @@ The script is a summary generation tool in the context of the analysis of wind d
 
 # Description
 
-El código comienza leyendo datos de viento de un archivo CSV, completando valores faltantes y filtrando por años específicos. Luego, convierte la fecha/hora y extrae el mes. A continuación, agrupa los datos por mes y hora para calcular promedios de velocidad del viento, por hora y para cada día de la semana. Estos resultados se exportan a un archivo Excel, donde se reorganizan, redondean según rangos de velocidad. Finalmente, el código aplica formato condicional, coloreando celdas según rangos de velocidad y generando un resumen de conteos de colores por mes.
+El código comienza leyendo datos eólicos presentes en un archivo CSV, completando valores faltantes y filtrando por años específicos. Luego, convierte la fecha/hora y extrae el mes. A continuación, agrupa los datos por mes y hora para calcular promedios de velocidad del viento, por hora y para cada día de la semana. Estos resultados se exportan a un archivo Excel, donde se reorganizan, redondean según rangos de velocidad. Finalmente, el código aplica formato condicional, coloreando celdas según rangos de velocidad y generando un resumen de conteos de colores por mes.
 
 # Instrucciones de uso (ESP).
 
