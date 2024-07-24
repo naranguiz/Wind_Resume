@@ -5,27 +5,24 @@ The script is a summary generation tool in the context of the analysis of wind d
 
 El código comienza leyendo datos eólicos presentes en un archivo CSV, completando valores faltantes y filtrando por años específicos. Luego, convierte la fecha/hora y extrae el mes. A continuación, agrupa los datos por mes y hora para calcular promedios de velocidad del viento, por hora y para cada día de la semana. Estos resultados se exportan a un archivo Excel, donde se reorganizan y redondean según rangos de velocidad descritos por tabla. Finalmente, el código aplica formato condicional, coloreando celdas según magnitudes de velocidad y generando un contador de las diferentes magnitudes presentes por mes.
 
-# Instrucciones de uso (ESP).
-
-Para poder generar un resumen en formato .xlsx a partir de las series de viento disponibles en el explorador eólico, se deben seguir los siguientes pasos:
-
-A) Acceder al sitio web https://eolico.minenergia.cl/ , ubicar geográficamente el punto en cuestión y acceder al menú ¨Explorar Recurso Eólico¨.
-B) Seleccionamos la altura deseada en la barra movible, esta será la altura de los datos que se descargarán en la ¨Serie Horaria Viento Reconstruido 1980-2017.csv¨.
-D) Descargamos el archivo ¨Serie Horaria Viento Reconstruido 1980-2017.csv¨ para la ubicación que seleccionamos.
-E) Abrimos el script .py, modificamos los paths y cambiamos el parametro h (este parametro indica la altura de las mediciones elegida en el punto B).
-
-
-El resultado debería ser un documento excel con el siguiente formato:
-![imagen](https://github.com/naranguiz/Wind_Resume/assets/43880651/0d6974a3-c738-4835-b9c4-23238352e3f4)
-
 # Significado de los valores y colores
 Los colores del formato condicional representan magnitudes de viento redondeadas según rangos descritos por la siguiente tabla:
 
 ![imagen](https://github.com/user-attachments/assets/01c38439-ac81-43ee-bfe5-b5f498613e0b)
 
-Finalmente, al analizar un resumen con la siguiente forma será entregado en una hoja de cálculo.
+# Instrucciones de uso (ESP).
 
-![imagen](https://github.com/user-attachments/assets/f9ad45b1-041a-4a08-bec0-64408486d241)
+Para poder generar un resumen en formato .xlsx a partir de las series de viento disponibles en el explorador eólico, se deben seguir los siguientes pasos:
+
+A) Acceder al sitio web https://eolico.minenergia.cl/ , ubicar geográficamente el punto en cuestión y acceder al menú ¨Explorar Recurso Eólico¨. \n
+B) Seleccionamos la altura deseada en la barra movible, esta será la altura de los datos que se descargarán en la ¨Serie Horaria Viento Reconstruido 1980-2017.csv¨. \n
+D) Descargamos el archivo ¨Serie Horaria Viento Reconstruido 1980-2017.csv¨ para la ubicación que seleccionamos. \n
+E) Abrimos el script .py, modificamos los paths y cambiamos el parametro h (este parametro indica la altura de las mediciones elegida en el punto B). \n
+
+El resultado debería ser un documento excel con el siguiente formato:
+![imagen](https://github.com/naranguiz/Wind_Resume/assets/43880651/0d6974a3-c738-4835-b9c4-23238352e3f4)
+
+
 
 
 
