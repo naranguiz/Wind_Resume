@@ -2,7 +2,7 @@
 
 El script es una herramienta de generación de resúmenes en el contexto del análisis de datos de viento del Wind Explorer en https://eolico.minenergia.cl/
 
-# Description
+# Descripción
 
 El código comienza leyendo datos eólicos presentes en un archivo CSV, completando valores faltantes y filtrando por años específicos. Luego, convierte la fecha/hora y extrae el mes. A continuación, agrupa los datos por mes y hora para calcular promedios de velocidad del viento, por hora y para cada día de la semana. Estos resultados se exportan a un archivo Excel, donde se reorganizan y redondean según rangos de velocidad descritos por tabla. Finalmente, el código aplica formato condicional, coloreando celdas según magnitudes de velocidad y generando un contador de las diferentes magnitudes presentes por mes.
 
