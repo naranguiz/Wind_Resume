@@ -11,7 +11,7 @@ Los colores del formato condicional representan magnitudes de viento redondeadas
 
 ![imagen](https://github.com/user-attachments/assets/01c38439-ac81-43ee-bfe5-b5f498613e0b)
 
-# Instrucciones de uso (ESP).
+# Instrucciones de uso (ESP)
 
 Para poder generar un resumen en formato .xlsx a partir de las series de viento disponibles en el explorador eólico, se deben seguir los siguientes pasos:
 
